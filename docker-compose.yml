@@ -3,6 +3,6 @@ services:
   web:
     image: nginx:latest
     ports:
-      - "80:80"
+      - "8085:80"
     volumes:
       - /home/ubuntu/website:/usr/share/nginx/html
